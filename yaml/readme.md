@@ -1,4 +1,4 @@
-详细用法：
+简要说明：
 
 1，clash-all-fallback-smart.yaml：
 带故障转移的Smart智能策略，分组很多。
