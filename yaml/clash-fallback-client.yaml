@@ -14,20 +14,24 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+
     proxy: 直连
 
 proxies:
   - {name: 直连, type: direct}
   - {name: 拒绝, type: reject}
 
-  - name: 链式落地节点名称
-    type: socks5
-    server: 
-    port: 
-    username: 
-    password: 
-    udp: true
-    dialer-proxy: 香港-自动
+
+# 以下为 链式代理 socks5 节点，如果要启用，请将前面的 # 去掉
+
+#  - name: 链式落地节点名称
+#    type: socks5
+#    server: 
+#    port: 
+#    username: 
+#    password: 
+#    udp: true
+#    dialer-proxy: 香港-自动
 
 # ========================
 # 策略组定义
@@ -217,10 +221,8 @@ rules:
   - RULE-SET,Grok / Domain,AI
   - RULE-SET,Meta AI / Domain,AI
   - RULE-SET,Perplexity / Domain,AI
-
   - RULE-SET,Google / Domain,Google
   - RULE-SET,Google / IP,Google
-
   - RULE-SET,Microsoft / Domain,Microsoft
   - RULE-SET,Apple / Domain,Apple
   - RULE-SET,Apple-CN / Domain,Apple  
