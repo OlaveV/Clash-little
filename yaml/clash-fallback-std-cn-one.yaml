@@ -273,9 +273,7 @@ rule-providers:
   Apple / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple.mrs"} 
   Apple-Custome / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Apple.list"}
   Microsoft / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/microsoft.mrs"}
-
   Crypto / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Crypto.list"}
-
   OKX / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/okx.mrs"}
   Bybit / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/bybit.mrs"}
   Binance / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/binance.mrs"}
@@ -301,13 +299,10 @@ rule-providers:
   Groq / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/groq.mrs"}
   Grok / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Grok.list"}
   Popcorn / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Popcorn.list"}
-
   Adobe / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Adobe/Adobe.list"}
   AdobeActivation / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdobeActivation/AdobeActivation.list"}
-
   Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
   Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
-
   Sex / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Sex.list"}
   Direct / Domain: {<<: *class, url: "https://gh-proxy.com/raw.githubusercontent.com/OlaveV/Clash-little/refs/heads/main/list/Direct.list"}
   Private / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/private.mrs"}
